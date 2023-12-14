@@ -16,15 +16,25 @@ if (isset($_GET["error"]))
     echo "</div>";
 }
 
+if (isset($_GET["success"]))
+{
+    echo "<div class='alert alert-success' role='alert'>";
+    if ($_GET["success"] ==1)
+    {
+        echo "Job ID ".$_GET["j"]." and Q&A ".$_GET['q']." inserted successfully !!";
+    }
+    echo "</div>";
+}
+
 ?>
 
-<h3>List of all the Recruiters</h3> 
+<h3>List of all the Jobs</h3> 
 <form action="Insert.php" method="post">
     <input type="text" name="title" placeholder='Title'/>
     <input type="text" name="job_type" placeholder='Job-Type'/>
     <input type="text" name="job_description" placeholder='Description'/>
-    <input type="datetime-local" name="deadline" placeholder='Deadline'/>
-    <input type="datetime-local" name="posting_date" placeholder='posting Date'/>
+    <input type="date" name="deadline" placeholder='Deadline'/>
+    <input type="date" name="posting_date" placeholder='posting Date'/>
     <input type="text" name="posted_by_emp" placeholder="Emp ID" />
     <input type="submit" value="Add">
 </form>
