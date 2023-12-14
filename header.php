@@ -45,10 +45,10 @@
     <div class="col-sm-3 sidenav">
       <h4>MCDA 5540 Project</h4>
       <ul class="nav nav-pills nav-stacked">
-        <li><a href="#section1">Home</a></li>
+        <li><a href="/MCDA5540_Project/">Home</a></li>
         <li><a href="/MCDA5540_Project/candidate/">Candidate</a></li>
         <li><a href="/MCDA5540_Project/recruiter/">Recruiter</a></li>
-        <li><a href="#section3">Photos</a></li>
+        <li><a href="/MCDA5540_Project/analytics">Analytics</a></li>
       </ul><br>
       <!-- <div class="input-group">
         <input type="text" class="form-control" placeholder="Search Blog..">
