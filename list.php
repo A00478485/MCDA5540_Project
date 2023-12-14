@@ -7,8 +7,8 @@
    <h2>List of all the Tables in our DB: </h2>
     <select onchange="this.form.submit()" name="selectedOption">
     <option value="-1"> select an option </option>
-    <option value="EducationToApplication"> EducationToApplication </option>
-    <option value="ExperienceToApplication"> ExperienceToApplication </option>
+    <option value="./education-to-application/List.php"> EducationToApplication </option>
+    <option value="./experience-to-application/List.php"> ExperienceToApplication </option>
     <option value="./application/List.php"> application </option>
     <option value="./candidate/"> candidate </option>
     <option value="education"> education </option>
