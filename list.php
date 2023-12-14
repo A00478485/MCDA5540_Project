@@ -14,8 +14,8 @@
     <option value="./education/List.php"> education </option>
     <option value="./recruiter/"> employee </option>
     <option value="./experience/List.php"> experience </option>
-    <option value="file_details"> file_details </option>
-    <option value="interview"> interview </option>
+    <option value="./file-details/List.php"> file_details </option>
+    <option value="./interview/List.php"> interview </option>
     <option value="./job-posting/List.php"> job_posting </option>
     <option value="./job-question/List.php"> job_question </option>
 

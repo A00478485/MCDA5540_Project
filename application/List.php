@@ -51,7 +51,7 @@ if ($result->num_rows > 0) {
         echo "<td>".$row["candidate_id"]."</td>";
         echo "<td>".$row["job_id"]."</td>";
         echo "<td>".$row["stage"]."</td>";
-        echo "<td><a href='./Update.php?id=".$row["application_id"]."'>Edit</a></td>";
+        // echo "<td><a href='./Update.php?id=".$row["application_id"]."'>Edit</a></td>";
         echo "</tr>";
     }
 
