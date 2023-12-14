@@ -11,7 +11,7 @@
     <option value="ExperienceToApplication"> ExperienceToApplication </option>
     <option value="./application/List.php"> application </option>
     <option value="./candidate/"> candidate </option>
-    <option value="education"> education </option>
+    <option value="./education/List.php"> education </option>
     <option value="./recruiter/"> employee </option>
     <option value="./experience/List.php"> experience </option>
     <option value="file_details"> file_details </option>
