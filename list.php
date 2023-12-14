@@ -13,7 +13,7 @@
     <option value="./candidate/"> candidate </option>
     <option value="education"> education </option>
     <option value="./recruiter/"> employee </option>
-    <option value="experience"> experience </option>
+    <option value="./experience/List.php"> experience </option>
     <option value="file_details"> file_details </option>
     <option value="interview"> interview </option>
     <option value="./job-posting/List.php"> job_posting </option>
