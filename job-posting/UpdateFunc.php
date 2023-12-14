@@ -1,3 +1,4 @@
+<?php include '../header.php'; ?>
 <?php
 
 if (isset($_GET['job_id'], $_GET['title'], $_GET['job_type'], $_GET['job_description'], $_GET['deadline'], $_GET['posting_date'])) {
@@ -37,3 +38,4 @@ if (isset($_GET['job_id'], $_GET['title'], $_GET['job_type'], $_GET['job_descrip
 }
 
 ?>
+<?php include '../footer.php'; ?>
