@@ -5,14 +5,14 @@
     <input type="text" name="title" placeholder='Title'/>
     <input type="text" name="job_type" placeholder='Job-Type'/>
     <input type="text" name="job_description" placeholder='Description'/>
-    <input type="text" name="deadline" placeholder='deadline'/>
+    <input type="text" name="deadline" placeholder='Deadline'/>
     <input type="text" name="posting_date" placeholder='posting Date'/>
-    <input type="text" name="posted_by_emp" placeholder='posted by emp id'/>
+    <input type="text" name="posted_by_emp" placeholder="Emp ID" />
     <input type="submit" value="Add">
 </form>
 <!-- <a href='./Insert.php'> Add Employee </a> -->
 
-<table>
+<table class="table table-striped">
 <thead>
 <th>ID</th>
 <th>Title</th>
@@ -31,7 +31,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo "<tr>";
+        echo "<tr scope='row'>";
         echo "<td>".$row["job_id"]."</td>";
         echo "<td>".$row["title"]."</td>";
         echo "<td>".$row["job_type"]."</td>";
