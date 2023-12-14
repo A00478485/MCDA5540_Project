@@ -1,5 +1,23 @@
 <?php include '../header.php'; ?>
 
+<?php 
+
+if (isset($_GET["error"]))
+{
+    echo "<div class='alert alert-danger' role='alert'>";
+    if ($_GET["error"] ==1)
+    {
+        echo "Update or Insert failed due to invalid recruiter ID !!";
+    }
+    else
+    {
+        echo "Update or Insert failed due to invalid details !!";
+    }
+    echo "</div>";
+}
+
+?>
+
 <h3>List of all the Recruiters</h3> 
 <form action="Insert.php" method="post">
     <input type="text" name="title" placeholder='Title'/>

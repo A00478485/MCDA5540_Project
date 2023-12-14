@@ -1,8 +1,7 @@
 <?php include '../header.php'; ?>
 
-<div class="content">
 <h3>List of all the Recruiters</h3>
-<table border="1px solid black">
+<table class="table">
 <thead>
 <th>ID</th>
 <th>First Name</th>
@@ -42,4 +41,3 @@ if ($result->num_rows > 0) {
 ?>
 </table>
 <?php include '../footer.php'; ?>
-</div>
