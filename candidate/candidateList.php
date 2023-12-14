@@ -1,14 +1,17 @@
 <?php include '../header.php'; ?>
-<table>
-<thead>
-<th>Object No</th>
-<th>First Name</th>
-<th>Last Name</th>
-<th>Phone No</th>
-<th>Email</th>
-<th>Edit</th>
-</thead>
 
+<h2> Candidate List </h2>
+
+<table class="table table-striped">
+<thead>
+<th scope="col">Object No</th>
+<th scope="col">First Name</th>
+<th scope="col">Last Name</th>
+<th scope="col">Phone No</th>
+<th scope="col">Email</th>
+<th scope="col">Link</th>
+</thead>
+<tbody>
 <?php
 
 function goToUpdate() {
@@ -30,7 +33,7 @@ if ($result->num_rows > 0) {
     #echo "<input style="."visibility:none;"." "."name="."selectedTuple"." "."value="."candidateUpdate.php"."/>";
 
     while ($row = $result->fetch_assoc()) {
-        echo "<tr>";
+        echo "<tr scope='row'>";
         echo "<td>".$row["candidate_id"]."</td>";
         echo "<td>".$row["first_name"]."</td>";
         echo "<td>".$row["last_name"]."</td>";
@@ -60,6 +63,7 @@ if ($result->num_rows > 0) {
 
 // echo "</div>"
 ?>
+</tbody>
 </table>
 
 <?php include '../footer.php'; ?>

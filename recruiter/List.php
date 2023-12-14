@@ -1,6 +1,6 @@
 <?php include '../header.php'; ?>
 
-<h3>List of all the Recruiters</h3> 
+<h2>List of all the Recruiters</h3> 
 <form action="Insert.php" method="post">
     <input type="text" name="first_name" placeholder='first_name'/>
     <input type="text" name="last_name" placeholder='last_name'/>
@@ -11,7 +11,7 @@
 </form>
 <!-- <a href='./Insert.php'> Add Employee </a> -->
 
-<table>
+<table class="table table-striped">
 <thead>
 <th>ID</th>
 <th>First Name</th>
@@ -30,7 +30,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo "<tr>";
+        echo "<tr scope='row'>";
         echo "<td>".$row["emp_id"]."</td>";
         echo "<td>".$row["first_name"]."</td>";
         echo "<td>".$row["last_name"]."</td>";

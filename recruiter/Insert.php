@@ -26,5 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
+<?php header('Location: ./List.php'); ?>
+
 
 <?php include '../footer.php'; ?>

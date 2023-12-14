@@ -28,5 +28,8 @@ if (isset($_GET['emp_id'], $_GET['first_name'], $_GET['last_name'], $_GET['phone
 
 ?>
 
+<?php header('Location: ./List.php'); ?>
+
+
 
 <?php include '../footer.php'; ?>
