@@ -27,8 +27,8 @@ if ($result->num_rows > 0) {
         echo "<td> <input name='title' value='".$row["title"]."' /> </td>";
         echo "<td> <input name='job_type' value='".$row["job_type"]."' /> </td>";
         echo "<td> <input name='job_description' value='".$row["job_description"]."' /> </td>";
-        echo "<td> <input name='deadline' value='".$row["deadline"]."' /> </td>";
-        echo "<td> <input name='posting_date' value='".$row["posting_date"]."' /> </td>";
+        echo "<td> <input type='datetime-local' name='deadline' value='".$row["deadline"]."' /> </td>";
+        echo "<td> <input type='datetime-local' name='posting_date' value='".$row["posting_date"]."' /> </td>";
         echo "<td> <input name='posted_by_emp' value='".$row["posted_by_emp"]."' /> </td>";
         echo "<td><input type='submit' value='Update'></td>";
         echo "<td><a href='./Delete.php?id=".$parameterValue."'>Delete</a></td>";

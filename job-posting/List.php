@@ -23,8 +23,8 @@ if (isset($_GET["error"]))
     <input type="text" name="title" placeholder='Title'/>
     <input type="text" name="job_type" placeholder='Job-Type'/>
     <input type="text" name="job_description" placeholder='Description'/>
-    <input type="text" name="deadline" placeholder='Deadline'/>
-    <input type="text" name="posting_date" placeholder='posting Date'/>
+    <input type="datetime-local" name="deadline" placeholder='Deadline'/>
+    <input type="datetime-local" name="posting_date" placeholder='posting Date'/>
     <input type="text" name="posted_by_emp" placeholder="Emp ID" />
     <input type="submit" value="Add">
 </form>
