@@ -2,12 +2,9 @@
 
 
 
-<div class="content" style="height:80vh;" >
-  
-
   <div class="container" style="display: flex;  justify-content: center; align-item:center;">
   <form action="function.php" method="post">
-  List of all the Tables in our DB: 
+   <h2>List of all the Tables in our DB: </h2>
     <select onchange="this.form.submit()" name="selectedOption">
     <option value="-1"> select an option </option>
     <option value="EducationToApplication"> EducationToApplication </option>
@@ -24,7 +21,6 @@
 
     </select>
     </form>
-    </div>
-</div>
+  </div>
 
 <?php include 'footer.php'; ?>

@@ -1,6 +1,10 @@
-<div class="footer" style="position :absolute; bottom: 0px; width: 100%">
-  <p>Footer</p>
-</div>
+    </div>
+  </div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
 
 </body>
 </html>
