@@ -58,3 +58,18 @@ body {
   <a href="#">Link</a>
   <a href="#">Link</a>
 </div>
+<?php 
+$servername = "dbcourse.cs.smu.ca";
+$username = "u20";
+$password = "costWOMANuntil10";
+$database = "u20";
+
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+
+?>
