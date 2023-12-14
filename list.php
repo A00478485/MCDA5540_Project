@@ -19,7 +19,7 @@
     <option value="experience"> experience </option>
     <option value="file_details"> file_details </option>
     <option value="interview"> interview </option>
-    <option value="job_posting"> job_posting </option>
+    <option value="./job-posting/List.php"> job_posting </option>
     <option value="job_questions"> job_questions </option>
 
     </select>

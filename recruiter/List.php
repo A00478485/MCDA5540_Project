@@ -1,6 +1,16 @@
 <?php include '../header.php'; ?>
 
-<h3>List of all the Recruiters</h3> <a href='./Insert.php'>
+<h3>List of all the Recruiters</h3> 
+<form action="Insert.php" method="post">
+    <input type="text" name="first_name" placeholder='first_name'/>
+    <input type="text" name="last_name" placeholder='last_name'/>
+    <input type="text" name="phone_number" placeholder='phone_number'/>
+    <input type="text" name="email_id" placeholder='email_id'/>
+    <input type="text" name="title" placeholder='title'/>
+    <input type="submit" value="Add">
+</form>
+<!-- <a href='./Insert.php'> Add Employee </a> -->
+
 <table>
 <thead>
 <th>ID</th>

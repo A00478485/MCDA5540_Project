@@ -2,10 +2,8 @@
 
 
 <?php
-    echo "updating!! 1";
 
 if (isset($_GET['emp_id'], $_GET['first_name'], $_GET['last_name'], $_GET['phone_number'], $_GET['email_id'])) {
-    echo "updating!!";
     $parameterValue = $conn->real_escape_string($_GET['emp_id']);
     $firstName = $conn->real_escape_string($_GET['first_name']);
     $lastName = $conn->real_escape_string($_GET['last_name']);
