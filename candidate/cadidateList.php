@@ -36,7 +36,7 @@ if ($result->num_rows > 0) {
         echo "<td>".$row["last_name"]."</td>";
         echo "<td>".$row["phone_number"]."</td>";
         echo "<td>".$row["email_id"]."</td>";
-        echo "<td><a href='/candidate/candidateUpdate.php?id=".$row["candidate_id"]."'>Edit</a></td>";
+        echo "<td><a href='./candidateUpdate.php?id=".$row["candidate_id"]."'>Edit</a></td>";
         echo "</tr>";
         #echo "<td>".$row["candidate_id"]."</td>";
         #echo "<div"." onclick="."this.form.submit()"." style="."cursor:pointer; font-size: 14px;>". $row["candidate_id"] ." ". $row["first_name"] ." ".$row["last_name"] ." ".$row["phone_number"] ." ".$row["email_id"] ." ".$row["city"] ." ".$row["province"] ." ".$row["country"] ." ".$row["zipcode"]. "</div><br />";

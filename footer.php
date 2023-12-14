@@ -7,4 +7,4 @@
 
 <?php
 $conn->close();
-echo "Connection Closed !!!" ?>
+// echo "Connection Closed !!!" ?>
