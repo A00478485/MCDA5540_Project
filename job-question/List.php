@@ -36,7 +36,7 @@ if ($result->num_rows > 0) {
         echo "<td>".$row["question_type"]."</td>";
         echo "<td>".$row["answer_type"]."</td>";
         echo "<td>".$row["posted_by_emp"]."</td>";
-        echo "<td><a href='./Update.php?id=".$row["question_id"]."'>Edit</a></td>";
+        // echo "<td><a href='./Update.php?id=".$row["question_id"]."'>Edit</a></td>";
         echo "</tr>";
     }
 

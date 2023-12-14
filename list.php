@@ -1,9 +1,5 @@
 <?php include 'header.php'; ?>
-
-
-
-  <div class="container" style="display: flex;  justify-content: center; align-item:center;">
-  <form action="function.php" method="post">
+<form action="function.php" method="post">
    <h2>List of all the Tables in our DB: </h2>
     <select onchange="this.form.submit()" name="selectedOption">
     <option value="-1"> select an option </option>
@@ -21,6 +17,14 @@
 
     </select>
     </form>
-  </div>
+<hr/>
+<h3> Group 7</h3>
+<ul>
+  <li>Bhavy Doshi (A00478485)</li>
+  <li>Ranjit Pandey (A00475045)</li>
+  <li>Papa Kwame (A00477519)</li>
+  <li>Sivleen Kaur (A00474480)</li>
+</ul>
+
 
 <?php include 'footer.php'; ?>
