@@ -51,6 +51,9 @@ body {
 }
 </style>
 </head>
+
+
+
 <body>
 
 <div class="topnav">
@@ -58,3 +61,19 @@ body {
   <a href="#">Link</a>
   <a href="#">Link</a>
 </div>
+
+
+<?php
+$servername = "localhost";
+$username = "bhavy";
+$password = "bhavy";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
