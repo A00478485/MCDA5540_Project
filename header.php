@@ -55,8 +55,9 @@
         <li><a href="/MCDA5540_Project/">Home</a></li>
         <li><a href="/MCDA5540_Project/candidate/">Candidate</a></li>
         <li><a href="/MCDA5540_Project/recruiter/">Recruiter</a></li>
-        <li><a href="/MCDA5540_Project/job-posting">Job Postings</a></li>
-        <li><a href="/MCDA5540_Project/analytics">Analytics</a></li>
+        <li><a href="/MCDA5540_Project/job-posting/">Job Postings</a></li>
+        <li><a href="/MCDA5540_Project/application/">Applications</a></li>
+        <li><a href="/MCDA5540_Project/analytics/">Analytics</a></li>
       </ul><br>
       <!-- <div class="input-group">
         <input type="text" class="form-control" placeholder="Search Blog..">
