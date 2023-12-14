@@ -9,7 +9,7 @@
     <option value="-1"> select an option </option>
     <option value="EducationToApplication"> EducationToApplication </option>
     <option value="ExperienceToApplication"> ExperienceToApplication </option>
-    <option value="application"> application </option>
+    <option value="./application/List.php"> application </option>
     <option value="./candidate/"> candidate </option>
     <option value="education"> education </option>
     <option value="./recruiter/"> employee </option>
@@ -17,7 +17,7 @@
     <option value="file_details"> file_details </option>
     <option value="interview"> interview </option>
     <option value="./job-posting/List.php"> job_posting </option>
-    <option value="job_questions"> job_questions </option>
+    <option value="./job-question/List.php"> job_question </option>
 
     </select>
     </form>
